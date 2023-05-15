@@ -25,25 +25,25 @@ while 1:
     print("""{}
   
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-▀ ▀
-▀ B U S E   ▀
-▀ ▀
+▀   J A Z E    ▀
+▀     SmS      ▀
+▀    BOMBER    ▀
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀          
-
+~ Telegram ~ @Fivist ~ My Channel ~ @WwwAzHeckerCom ~
     Sms: {}                                      
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.CYAN))
-    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"Katkıda bulunanlar: "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"edited by Buse, Rolex\n"+Style.RESET_ALL)
+    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"Katkıda bulunanlar: "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"edited by Fivist\n"+Style.RESET_ALL)
     try:
         menu = int(input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n 2- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
     except ValueError:
         system("cls||clear")
-        print(Fore.LIGHTRED_EX + "Hatalı giriş yaptınız. Tekrar deneyiniz.")
+        print(Fore.LIGHTRED_EX + "Xətalı giriş etdiniz. Yenidən cəhd edin.")
         sleep(3)
         continue
     if menu == 1:
         system("cls||clear")
         try:
-            print(Fore.LIGHTYELLOW_EX + "Telefon numarasını başında '+90' olmadan yazınız (birden çoksa 'enter' bas): "+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + "Telefon nömrəsini başında '+994' olmadan yazınız (birdən çoxdursa 'enter' bas): "+ Fore.LIGHTGREEN_EX, end="")
             tel_no = input()
             if tel_no != "" and len(str(tel_no)) == 10:
                 tel_no2 = "bos"
@@ -53,10 +53,10 @@ while 1:
             if tel_no == "":
                 system("cls||clear")
                 print( Fore.LIGHTGREEN_EX+"[+] "+Fore.CYAN+"TXT dosya formatı:\n"
-                      +Fore.LIGHTGREEN_EX+"[+] "+Fore.CYAN+"En fazla 5 numara olacak şekilde başında '+90' olmadan alt alta numaraları yazın.")
+                      +Fore.LIGHTGREEN_EX+"[+] "+Fore.CYAN+"Ən çox 5 nömrə olacaq şekilde başında '+994' olmadan alt alta nömrələri yazın.")
                 print("")
                 print("")
-                print(Fore.LIGHTYELLOW_EX + "TXT dosyasının yolunu giriniz: "+ Fore.LIGHTGREEN_EX, end="")
+                print(Fore.LIGHTYELLOW_EX + "TXT papqasının yolunu daxil edin: "+ Fore.LIGHTGREEN_EX, end="")
                 dosya_yolu = input()
                 try:
                     with open(dosya_yolu, 'r') as file:
